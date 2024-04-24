@@ -14,7 +14,7 @@ public class CompareSet<T>{
     }
 
     public void showCommonValues(){
-        Set<T> commonElements = new HashSet<T>(this.set1);
+        HashSet<T> commonElements = new HashSet<T>(this.set1);
         commonElements.retainAll(this.set2);
 
         for(T element: commonElements){

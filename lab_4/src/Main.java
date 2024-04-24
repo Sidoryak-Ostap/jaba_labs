@@ -5,7 +5,7 @@ public class Main {
         if(gap < 1){
             return 1;
         }
-        return gap;
+         return gap;
     }
 
 
